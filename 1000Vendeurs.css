@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'sans serif';
+    scroll-behavior: smooth;
+}
+
+                      /* HEADER */
+.navbar{
+    padding: 0px;
+    margin: 0px;
+    background: orange;
+    justify-content:fixed ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.navbar .menubar{
+    display: flex;
+    align-items: center;
+}
+.navbar .menubar .principal{
+    display: flex;
+}
+
+.navbar .menubar .principal .sub{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    list-style: none;
+}
+.menubar .principal .sub .menu{
+    
+    color: blue;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 55px;
+    text-decoration: none;
+    position: relative;
+}
+.principal .sub .menu:hover{
+    color: yellow;
+}
+.principal .vas{
+    list-style: none;
+    flex-direction: column;
+    display: none;
+}
+.principal .vas .submenu .men{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    font-weight: 900;
+    color: rgb(135, 149, 228)
+}
+
+.submenu .men{
+    padding: 10px;
+    margin: 10px;
+    background-color:khaki;
+    text-decoration: none;
+}
+.submenu:hover .men{
+    background-color: yellow;
+}
+
+
+.sub:hover .vas{
+    display: block;
+}
+
+
+
+
+
+            /* premier partie dans acceuil */
+            
+            
+    
+section{
+    padding: 100px;
+    
+}
+.photo{
+    top: -10%;
+
+}
+
+.pdg{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30%;
+}
+.pdg .mot{
+    position: relative;
+    left: 45%;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    top: -50px;
+}
+.pdg .mot h1{
+    margin-bottom: 25px;
+    color: orange;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.pdg .mot p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: white;
+}
+
+/* ligne 1 */
+section hr{
+    font-weight: 900;
+    color: black;
+    width: 100%;
+    height:100% ;
+    margin-top: 5%;
+    border-top: 2px solid black;
+}
+
+/* 2iemme partie dans actualité */
+.texte{
+    margin-bottom: 25px;
+}
+.texte h1{
+    margin-top: -15%;
+    color: orange;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+.capture{
+    margin-top: 5%;
+    margin: 0px;
+}
+
+img{
+    margin: 15px;
+}
+/* 2ieme ligne */
+.foto hr{
+    margin-top: 5%;
+    background-color: black;
+}
+
+           /* contact */
+.taf .contener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.taf .contener p{
+    position: relative;
+    margin: 22px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color: peru;    
+}
+
+/* map */
+.texte h1{
+    text-align: center;
+    margin-top: -15%;
+    color: orange;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.localisation h2{
+    color: sandybrown;
+    margin-bottom: 3%;
+}
+iframe{
+    left: -30%;
+}
+
+
+
+
+/* copyright */
+
+.copyright{
+    padding: 20px;
+    border-top: 2px solid black;
+    background: orange;
+    text-align: center;
+}
+.copyright p:nth-child(1){
+    color: blue;
+    font-weight: bolder;
+}
+.copyright a{
+    color: black;
+    text-decoration: none;
+    font-style: italic ;
+}
